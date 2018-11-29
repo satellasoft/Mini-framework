@@ -11,6 +11,9 @@ hr {
   border: none;
   border-top: 1px solid #464543; }
 
+p {
+  padding-top: 8px; }
+
 .clear {
   clear: both; }
 
@@ -19,6 +22,11 @@ hr {
 
 .bold {
   font-weight: bold; }
+
+.tag {
+  background-color: #EEE;
+  border-bottom: 1px solid #CCC;
+  padding: 2px; }
 
 .text-left {
   text-align: left; }
@@ -31,6 +39,12 @@ hr {
 
 .text-justify {
   text-align: justify; }
+
+.text-white {
+  color: #ffffff; }
+
+.text-black {
+  color: #000000; }
 
 .text-dark {
   color: #464543; }
@@ -55,6 +69,12 @@ hr {
 
 .text-light {
   color: #F6F6F6; }
+
+.background-white {
+  background-color: #ffffff; }
+
+.background-black {
+  background-color: #000000; }
 
 .background-dark {
   background-color: #464543; }
@@ -182,5 +202,18 @@ hr {
   border-left: 5px solid #F6F6F6; }
   .alert-light .alert-mark {
     color: #F6F6F6; }
+
+.vertical-nav {
+  list-style-type: none; }
+  .vertical-nav li {
+    background-color: #2F9DCE;
+    padding: 5px;
+    margin-top: 3px;
+    cursor: pointer; }
+  .vertical-nav li:hover {
+    background-color: #464543; }
+  .vertical-nav a {
+    text-decoration: none;
+    color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
