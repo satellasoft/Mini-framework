@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 //Colors
 $black-color : #000000;//Black
 $white-color : #ffffff;//White
@@ -16,6 +15,9 @@ $light-color: #F6F6F6;
 $default-spacing : 5px;
 $default-margin : 5px;
 $max-width: 900px;
+
+//Imports
+@import 'forms';
 
 //ELEMENTS
 
@@ -39,9 +41,6 @@ p{
 }
 
 //Helpers
-.clear{
-  clear:both;
-}
 .container{
   max-width: $max-width;
 }
@@ -254,4 +253,32 @@ p{
     text-decoration: none;
     color: $white-color;
   }
+}
+
+//Floats
+.float-left{
+  float:left;
+}
+
+.float-right {
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+//Widths
+.small-width{
+  max-width: 25%;
+  width:100%;
+}
+
+.middle-width{
+  max-width: 50%;
+  width:100%;
+}
+
+.full-width{
+  width:100%;
 }
